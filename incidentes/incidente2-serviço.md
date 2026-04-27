@@ -14,3 +14,12 @@ Reiniciado serviço com python3 -m http.server 8000.
 
 ## Validação
 Sistema voltou a responder.
+
+##  Comandos utilizados
+
+```bash
+python3 -m http.server 8000
+curl localhost:8000
+ps aux | grep python
+kill <PID>
+python3 -m http.server 8000
