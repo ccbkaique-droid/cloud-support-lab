@@ -6,7 +6,7 @@ Simular incidentes reais em um ambiente Linux e aplicar resolução de problemas
 
 ## Tecnologias utilizadas
 - Linux
-- Terminal (CLI)
+- Terminal 
 - Redes básicas
 - Controle de permissões
 
