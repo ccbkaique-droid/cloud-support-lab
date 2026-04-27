@@ -30,3 +30,6 @@ Simular incidentes reais em um ambiente Linux e aplicar resolução de problemas
 - Análise de permissões
 - Troubleshooting em ambiente Linux
  
+## Incidentes simulados 
+- incidentes/incidente1-permissão.md
+- 
