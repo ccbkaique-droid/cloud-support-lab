@@ -1,16 +1,18 @@
-# Incidente 1 — Falha de permissão
+# Incidente 1 — Falha de acesso por permissão
 
-## Problema
-Usuário não conseguia acessar o arquivo.
+##  Problema
+Usuário não conseguia acessar o arquivo sistema.txt.
 
-## Diagnóstico
-Verificou-se com ls -l.
+##  Diagnóstico
+Verifiquei as permissões do arquivo usando ls -l.
 
-## Investigação
-Arquivo sem permissões.
+##  Investigação
+O arquivo estava sem permissões (----------), impedindo qualquer acesso.
 
-## Solução
-chmod 644 sistema.txt
+##  Solução
+Apliquei chmod 644 sistema.txt para permitir leitura.
 
-## Validação
-Usuário conseguiu acessar.
+##  Validação
+Teste realizado com outro usuário confirmou acesso ao arquivo.
+
+
