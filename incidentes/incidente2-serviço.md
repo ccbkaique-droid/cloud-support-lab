@@ -1,25 +1,11 @@
 # Incidente 2 — Serviço indisponível
+##  Problema
+Usuário relatou que o sistema web não estava acessível.
 
-## Problema
-Sistema web não respondia.
-
-## Diagnóstico
-Servidor acessível, mas serviço não respondia.
-
-## Investigação
-Serviço não estava rodando.
-
-## Solução
-Reiniciado serviço com python3 -m http.server 8000.
-
-## Validação
-Sistema voltou a responder.
-
-##  Comandos utilizados
-
+##  Diagnóstico
+Verificou-se que o processo não estava em execução.
+## Comandos utilizados 
 ```bash
-python3 -m http.server 8000
-curl localhost:8000
 ps aux | grep python
-kill <PID>
-python3 -m http.server 8000
+
+
